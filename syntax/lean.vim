@@ -63,6 +63,7 @@ syn match leanOp '\([A-Za-z]\)\@<!?'
 " delimiters
 syn region leanEncl matchgroup=leanDelim start="#\[" end="\]" contains=TOP
 syn region leanEncl matchgroup=leanDelim start="(" end=")" contains=TOP
+syn region leanEncl matchgroup=leanDelim start="{" end="}" contains=TOP
 syn region leanEncl matchgroup=leanDelim start="\[" end="\]" contains=TOP
 syn region leanEncl matchgroup=leanDelim start="⦃"  end="⦄" contains=TOP
 syn region leanEncl matchgroup=leanDelim start="⟨"  end="⟩" contains=TOP
